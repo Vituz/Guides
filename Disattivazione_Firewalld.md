@@ -1,8 +1,8 @@
 ## CREAZIONE FILE DISABILITAZIONE FIREWALLD ALL’AVVIO
 
-### Creazione file:
+### Crea il file:
 ```bash
-/usr/local/bin/disable-firewall.sh
+nano /usr/local/bin/disable-firewall.sh
 ```
 
 ```ini
@@ -22,7 +22,7 @@ chmod +x /usr/local/bin/disable-firewall.sh
 
 ### Crea il file:
 ```bash
-/etc/systemd/system/disable-firewall.service
+nano /etc/systemd/system/disable-firewall.service
 ```
 
 ```ini
