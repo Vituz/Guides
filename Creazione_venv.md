@@ -26,7 +26,7 @@ django-tailwind==4.0.1
 Consente di creare un Virtual Environment dove installare tutti i moduli necessari al funzionamento del software senza installarli sulla macchina. Questo consente di non avere problemi di versione dei moduli tra i vari Progetti
 
 ```shell
-python -m venv 'nome_vene'
+python -m venv 'nome_venv'
 ```
 
 ### Attivazione del venv
