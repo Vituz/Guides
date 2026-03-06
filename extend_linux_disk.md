@@ -13,6 +13,8 @@ lsblk
 ```
 
 Estendi la partizione /dev/sda3 o nell’sda root
+
+Se growpart non è installato eseguire
 ```bash
 sudo dnf -y install cloud-utils-growpart
 ```
